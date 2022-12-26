@@ -1,0 +1,111 @@
+body{
+    background-color: grey;
+    font-size: 15px;
+}
+
+*{
+    background-color: lightgray;
+}
+
+
+
+
+.column {
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap;
+    
+}
+
+.contForm {
+    width: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 7px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px;
+    font-size: 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}   
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 15px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: white;
+    min-width: 100px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+img {
+    height: 100px;
+}
+
+.campoTexto {
+    margin-top: 25px;
+    width: 600px;
+    height: 500px;
+    border: 0.5px solid black;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    padding: 7px;
+}
+
+.campoTexto p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.email {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date {
+    color: green;
+    font-size: 16px;
+
+}
+
+.msj {
+    color: blue;
+    font-style: oblique;
+    font-size: 16px;
+}
+
+#productos{
+    border: 2px solid black;
+    margin: 0px 20px;
+}
